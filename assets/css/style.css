@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #218380;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
+
+
+main {
+    width:50%;
+    margin:auto;
+    padding:30px;
+    border:1px solid black;
+    border-radius: 20px;
+    margin-top: 10%;
+    box-shadow: 10px 5px 5px gray;
+}
+@media only screen and (max-width: 480px) {
+  main{
+    margin-top:40%;
+    margin-left:20px;
+    margin-right:20px;
+    width:fit-content;
+  }
+  
+}
+p{
+    word-break: break-all;
+    white-space: normal;
+}
+
+.btn-primary {
+    background-color: #218380 !important;
+}
+.options{
+    width:100%;
+    margin:3px;
+    text-align:left;
+}
